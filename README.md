@@ -10,7 +10,7 @@ Also this from the rubric:
 **"Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted."** 
 
 Finally, there's this:
-"**README.md must include: ✓ Description of the communicationprotocols**
+"**README.md must include: ✓ Description of the communicationprotocols"**
 
 ## Communication Protocols
 
