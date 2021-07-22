@@ -15,3 +15,6 @@ Finally, there's this:
 ## Communication Protocols
 
 
+Slack for group messaging
+Coda for planning
+Discord for conversations
