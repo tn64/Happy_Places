@@ -2,19 +2,41 @@
 
 # Happy Places
 
-Hi Everyone: let me know if you want any branch names changed (ie. technical names changed to personal names) or any adjustment/additions.
+Hi Everyone: 
 
-Per the rubruic for the first deliverable, make sure you each have at least four commits.
+- Per the rubruic for the first deliverable, make sure you each have at least four commits.
 
-Also this from the rubric:
+- Also this from the rubric:
 **"Note: The descriptions and explanations required in all other project deliverables should also be in your README.md as part of your outline, unless otherwise noted."** 
 
-Finally, there's this:
-"**README.md must include: ✓ Description of the communicationprotocols"**
+## Project Goal
+
+## Question(s) We Want to Answer
 
 ## Communication Protocols
 
+Throughout this project we will use the following for group communication
+- Slack and Zoom: for messaging and meeting during class sessions
+- Coda: for scheduling, polling, and progress tracking
+- Discord: for screen sharing and voice calls outside of class sessions
 
-Slack for group messaging
-Coda for planning
-Discord for conversations
+## Team Responsibilties
+Italia Cardenas - Machine Learning Model
+Salih Mohammed - Database
+Jose Guerra - Database
+Henry Wang - Presentation
+Tom Norris - Github, Machine Learning Model
+
+## First Steps
+
+## Exploratory Data Analysis
+
+## The Database
+
+## Data Analysis and Machine Learning
+
+## Project Dashboard
+
+## Conclusions
+
+## Resources
