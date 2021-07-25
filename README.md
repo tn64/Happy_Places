@@ -21,11 +21,11 @@ Throughout this project we will use the following for group communication
 - Discord: for screen sharing and voice calls outside of class sessions
 
 ## Team Responsibilties
-Italia Cardenas - Machine Learning Model
-Salih Mohammed - Database
-Jose Guerra - Database
-Henry Wang - Presentation
-Tom Norris - Github, Machine Learning Model
+Italia Cardenas - Machine Learning Model</br>
+Salih Mohammed - Database</br>
+Jose Guerra - Database</br>
+Henry Wang - Presentation</br>
+Tom Norris - Github, Machine Learning Model</br>
 
 ## First Steps
 
