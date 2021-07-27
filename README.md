@@ -37,6 +37,6 @@ Description of the analysis phase of the project
 
 ## Project Dashboard
 
-## Conclusions
+## Conclusions 
 
 ## Resources
