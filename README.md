@@ -5,7 +5,7 @@
 ## Project Goal
 What factors lead to greatest happiness among nations? For this project, we used data from XXXXX, XXXXXX, XXXXX to determine whether or not it is possible to predict which, among the factors selected, are most hightly correlated to experiencing happiness.
 
-The happiness score is taken from XXXXX and is trated as the target of the machine learning model(s), while the features are taken from XXXXX (these were combined into a single dataset).
+The happiness score is taken from XXXXX and is treated as the target of the machine learning model(s), while the features are taken from XXXXX (these were combined into a single dataset).
 
 The factors selected are:
 - A
