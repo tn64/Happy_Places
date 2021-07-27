@@ -3,10 +3,24 @@
 # Happy Places
 
 ## Project Goal
-Why we selected this project
+What factors lead to greatest happiness among nations? For this project, we used data from XXXXX, XXXXXX, XXXXX to determine whether or not it is possible to predict which, among the factors selected, are most hightly correlated to experiencing happiness.
+
+The happiness score is taken from XXXXX and is trated as the target of the machine learning model(s), while the features are taken from XXXXX (these were combined into a single dataset).
+
+The factors selected are:
+- A
+- B
+- C
+- D
+- E
 
 ## Question(s) We Want to Answer
-Point toward the top 5 takeaways?
+We want to determine the answer to the following questions:
+1 A
+2 B
+3 C
+4 D
+5 E
 
 ## Source Data
 Description of the source data
