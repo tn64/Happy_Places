@@ -3,9 +3,9 @@
 # Happy Places
 
 ## Project Goal
-What factors lead to greatest happiness among nations? For this project, we used data from XXXXX, XXXXXX, XXXXX to determine whether or not it is possible to predict which, among the factors selected, are most hightly correlated to experiencing happiness.
+What factors lead to greatest happiness among nations? For this project, we used data from XXXXX, XXXXXX, XXXXX for years XXXXX through XXXXX, to determine which factors are most highly correlated to happiness and, because nations have differrent scores related to these factors, whether or not it is possible to predict which nations will experience the most happiness.
 
-The happiness score is taken from XXXXX and is treated as the target of the machine learning model(s), while the features are taken from XXXXX (these were combined into a single dataset).
+The happiness score is taken from XXXXX and is treated as the target of the machine learning model(s), while the features are taken from XXXXX, XXXXX, XXXXX (these were combined into a single dataset).
 
 The factors selected are:
 - A
@@ -16,11 +16,8 @@ The factors selected are:
 
 ## Question(s) We Want to Answer
 We want to determine the answer to the following questions:
-- A
-- B
-- C
-- D
-- E
+- Which individual factors are most highly correlated to happiness?
+- Is it possible to predict which countries will experience the greatest happiness based on the factors in the dataset?
 
 ## Source Data
 Description of the source data
