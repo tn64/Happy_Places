@@ -14,7 +14,7 @@ The factors selected are:
 - D
 - E
 
-## Question(s) We Want to Answer
+## Question We Want to Answer
 We want to determine the answer to the following questions:
 - Which individual factors are most highly correlated to happiness?
 - Is it possible to predict which countries will experience the greatest happiness based on the factors in the dataset?
