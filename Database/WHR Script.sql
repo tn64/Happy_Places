@@ -7,6 +7,7 @@ DROP TABLE IF EXISTS WHR_2020;
 DROP TABLE IF EXISTS countries_regions;
 DROP TABLE IF EXISTS whr;
 
+DECLARE @FilePath AS VARCHAR(100) = 'C:\Users\saleh\Desktop\UCB Bootcamp\Final Project\Data\' + 
 -- Adding Tables
 
 CREATE TABLE Countries_Regions
@@ -214,3 +215,14 @@ SELECT DISTINCT Country FROM alcohol_cons
 SELECT AC.country , whr.country FROM Alcohol_cons AS AC
 FULL OUTER JOIN whr ON AC.country = whr.country
 WHERE AC.country is null OR whr.country is null 
+
+
+--Creat Country Table
+CREATE TABLE Country (
+	Country_Name VARCHAR(50) UNIQUE,
+	Code CHAR(2)  PRIMARY KEY UNIQUE ) 
+	
+SELECT DISTINCT C.country_name,W.country FROM Country AS C
+FULL OUTER JOIN whr AS W on C.country_name = W.country
+WHERE C.country_name is null OR W.country is null 
+ 
