@@ -23,9 +23,9 @@ We want to determine the answer to the following questions:
 - How can US improve overall happiness?
 
 ## Source Data
-https://www.kaggle.com/mathurinache/world-happiness-report
-https://data.oecd.org/leadind/consumer-confidence-index-cci.htm
-https://www.bls.gov/cpi/
+- https://data.oecd.org/leadind/consumer-confidence-index-cci.htm
+- https://www.bls.gov/cpi/
+- https://www.kaggle.com/mathurinache/world-happiness-report
 
 ## Communication Protocols
 
