@@ -19,11 +19,13 @@ Through machine learning, we’d like to explore how each of the factors impact 
 - Corruption Perception
 - Residual error
 
-## Question We Want to Answer
-We want to determine the answer to the following questions:
+## Questions We Want to Answer
+We want to explore the following questions:
 - Which individual factors are most highly correlated to happiness?
 - Is it possible to predict which countries will experience the greatest happiness based on the factors in the dataset?
 - How can US improve overall happiness?
+- How does CCI and CPI play a part in predicting overall happiness?
+- Does legalization of cannibis impact happiness?
 
 ## Source Data
 - https://data.oecd.org/leadind/consumer-confidence-index-cci.htm
