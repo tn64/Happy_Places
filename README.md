@@ -3,24 +3,29 @@
 # Happy Places
 
 ## Project Goal
-What factors lead to greatest happiness among nations? For this project, we used data from XXXXX, XXXXXX, XXXXX for years XXXXX through XXXXX, to determine which factors are most highly correlated to happiness and, because nations have differrent scores related to these factors, whether or not it is possible to predict which nations will experience the most happiness.
+We are the country that created the happiest place on Earth, but how happy are we as a nation?
+Through machine learning, we’d like to explore how each of the factors impact the overall learning process. Also, how would each ML methodological approach take different effects on overall learning scheme. In doing so, we’d may find what US needs to improve overall happiness rank. This may be particularly interesting to those who are seeking public office during future elections. 
 
-The happiness score is taken from XXXXX and is treated as the target of the machine learning model(s), while the features are taken from XXXXX, XXXXX, XXXXX (these were combined into a single dataset).
+ In search of becoming one of the happiest countries in the world, we are exploring the following key factors:
 
-The factors selected are:
-- A
-- B
-- C
-- D
-- E
+- GDP per capita
+- Healthy Life Expectancy
+- Social support
+- Freedom to make life choices
+- Generosity
+- Corruption Perception
+- Residual error
 
 ## Question We Want to Answer
 We want to determine the answer to the following questions:
 - Which individual factors are most highly correlated to happiness?
 - Is it possible to predict which countries will experience the greatest happiness based on the factors in the dataset?
+- How can US improve overall happiness?
 
 ## Source Data
-Description of the source data
+https://www.kaggle.com/mathurinache/world-happiness-report
+https://data.oecd.org/leadind/consumer-confidence-index-cci.htm
+https://www.bls.gov/cpi/
 
 ## Communication Protocols
 
