@@ -40,6 +40,8 @@ Throughout this project we will use the following for group communication
 - Discord: for screen sharing and voice calls outside of class sessions
 
 ## Team Responsibilties
+Part I
+
 Salih Mohammed - Database</br>
 Jose Guerra - Database</br>
 Henry Wang - Presentation</br>
