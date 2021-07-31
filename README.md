@@ -1,3 +1,4 @@
+
 <img src="https://github.com/tn64/happy_places/blob/main/Resources/earth_from_space.png"></br>
 
 # Happy Places
@@ -5,6 +6,8 @@
 ## Project Goal
 We are the country that created the happiest place on Earth, but how happy are we as a nation?
 Through machine learning, we’d like to explore how each of the factors impact the overall learning process. Also, how would each ML methodological approach take different effects on overall learning scheme. In doing so, we’d may find what US needs to improve overall happiness rank. This may be particularly interesting to those who are seeking public office during future elections. 
+
+![HappyQuote](https://user-images.githubusercontent.com/80020446/127728745-da57e01a-a8c9-4420-b212-21c08e1d2f01.png)
 
  In search of becoming one of the happiest countries in the world, we are exploring the following key factors:
 
