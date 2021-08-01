@@ -31,6 +31,7 @@ We want to explore the following questions:
 - https://data.oecd.org/leadind/consumer-confidence-index-cci.htm
 - https://www.bls.gov/cpi/
 - https://www.kaggle.com/mathurinache/world-happiness-report
+- https://www.who.int/data/gho/data/indicators/indicator-details/GHO/alcohol-recorded-per-capita-(15-)-consumption-(in-litres-of-pure-alcohol)
 
 ## Communication Protocols
 
