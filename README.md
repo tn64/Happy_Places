@@ -55,6 +55,7 @@ Tom Norris - Github, Machine Learning Model</br>
 Description of the data exploration phase of the project
 
 ## The Database
+![Results](Resources/database_diagram.PNG)
 
 ## Data Analysis and Machine Learning
 Description of the analysis phase of the project
