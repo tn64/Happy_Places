@@ -95,4 +95,4 @@ Helliwell, John F., Richard Layard, Jeffrey Sachs, and Jan-Emmanuel De Neve, eds
 
 https://www.kaggle.com/paultimothymooney/latitude-and-longitude-for-every-country-and-state
 https://www.kaggle.com/mathurinache/world-happiness-report
-
+https://worldpopulationreview.com/country-rankings/alcohol-consumption-by-country
