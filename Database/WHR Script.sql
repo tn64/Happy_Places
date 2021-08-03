@@ -14,8 +14,6 @@ CREATE TABLE WHR_2019 (
 	Trust DECIMAL(6,5)
 	);
 
-copy WHR_2019 from 'C:\Users\saleh\Desktop\UCB Bootcamp\Final Project\Data\2019.csv' with delimiter ',' csv header encoding 'windows-1251';
-
 CREATE TABLE countries (
 	country_code CHAR(2) PRIMARY KEY UNIQUE,
 	lat Decimal(8,6),
@@ -23,8 +21,6 @@ CREATE TABLE countries (
 	country VARCHAR(50) UNIQUE
 );
 	
-copy countries from 'C:\Users\saleh\Desktop\UCB Bootcamp\Final Project\Data\world_country_and_usa_states_latitude_and_longitude_values.csv' with delimiter ',' csv header encoding 'windows-1251';	
-
 	
 SELECT DISTINCT C.country,W.country FROM countries AS C
 FULL OUTER JOIN whr_2019 AS W on C.country = W.country
@@ -86,3 +82,66 @@ SET lng =  (SELECT lng FROM countries AS wc
 		   WHERE wc.country = whr.country);
 
  
+-- create alcohol_cons Table and clean it
+
+CREATE TABLE alcohol_cons
+(
+    country varchar(50),
+    alcohol_per_year numeric(3,1)
+)
+
+SELECT DISTINCT C.country,ac.country FROM countries AS C
+FULL OUTER JOIN alcohol_cons AS ac on C.country = ac.country
+WHERE C.country is null;
+
+-- Match country names
+
+DELETE FROM alcohol_cons
+where country = 'Northern Cyprus';
+
+UPDATE alcohol_cons
+SET country = (SELECT country FROM countries
+			  WHERE country_code = 'CG')
+WHERE country = 'Republic of the Congo';
+
+UPDATE alcohol_cons
+SET country = (SELECT country FROM countries
+			  WHERE country_code = 'CD')
+WHERE country = 'DR Congo';
+
+UPDATE alcohol_cons
+SET country = (SELECT country FROM countries
+			  WHERE country_code = 'CI')
+WHERE country = 'Ivory Coast';
+
+UPDATE alcohol_cons
+SET country = (SELECT country FROM countries
+			  WHERE country_code = 'MM')
+WHERE country = 'Myanmar';
+
+UPDATE alcohol_cons
+SET country = (SELECT country FROM countries
+			  WHERE country_code = 'SZ')
+WHERE country = 'Eswatini';
+
+UPDATE alcohol_cons
+SET country = (SELECT country FROM countries
+			  WHERE country_code = 'ST')
+WHERE country = 'Sao Tome and Principe';
+
+SELECT DISTINCT C.country,ac.country FROM countries AS C
+FULL OUTER JOIN alcohol_cons AS ac on C.country = ac.country
+WHERE C.country is null;
+
+
+-- Adding alcohol_LiPerYear column and populating it
+ALTER TABLE whr_2019
+ADD COLUMN alcohol_LiPerYear numeric(3,1);
+
+UPDATE whr_2019 AS whr
+SET alcohol_LiPerYear =  (SELECT alcohol_per_year FROM alcohol_cons AS wc
+		   WHERE wc.country = whr.country);
+
+-- Check for null values
+SELECT * FROM whr_2019
+WHERE alcohol_LiPerYear is null or country is null
