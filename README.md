@@ -50,7 +50,6 @@ Tom Norris - Github, Machine Learning Model</br>
 
 Part II
 
-
 Salih Mohammed - Database</br>
 Jose Guerra - Database</br>
 Henry Wang - Presentation</br>
@@ -58,19 +57,23 @@ Italia Cardenas - Machine Learning Model</br>
 Tom Norris - Github, Machine Learning Model</br>
 
 ## First Steps
-
+Due to prescence of the pandemic, we have decided to throw out year 2020 and the present year 2021. 
+- Cleaned Wolrd Happiness Report Data from 2015 to 2019;
+- Looked and removed null values;
+- Cleaned CCI, CPI and alcohol databases;
+- Loaded additional factor data into database; alcohol loaded in ERD as trial;
 ## Exploratory Data Analysis
-Description of the data exploration phase of the project
+
 
 ## The Database
 <img width="369" alt="database_diagram" src="https://user-images.githubusercontent.com/80020446/128621838-d981ba72-fdee-4847-9b1b-f88aed3d550c.PNG">
 
 ## Data Analysis and Machine Learning
-Description of the analysis phase of the project
+Based on the World Happiness Report, the GDP, Family, Life expentancy and freedom seem to directly impact overall happiness of a country while trust and generosity do not. The money is the root of all evil, but without money, it's difficult to accomplish much. The way money impacts happiness is expressed in terms of GDP. Here we run into the problem of US having higher GDP than the world's happiness countries, but rank much lower on happiness score. 
 
 ## Project Dashboard
-
+See Google Slide
 ## Conclusions 
-
+TBD
 ## Resources
-
+TBD
