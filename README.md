@@ -74,6 +74,7 @@ Based on the World Happiness Report, the GDP, Family, Life expentancy and freedo
 
 ## Project Dashboard
 See Google Slide
+https://docs.google.com/presentation/d/1KHBlzdOCCLyFK2nmcLZyR1_vxCX9v-C6a4RVpKL31c0/edit?usp=sharing
 ## Conclusions 
 TBD
 ## Resources
