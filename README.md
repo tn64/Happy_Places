@@ -63,6 +63,7 @@ Due to prescence of the pandemic, we have decided to throw out year 2020 and the
 - Cleaned CCI, CPI and alcohol databases;
 - Loaded additional factor data into database; alcohol loaded in ERD as trial;
 ## Exploratory Data Analysis
+![image](https://user-images.githubusercontent.com/80020446/128658976-7ddd0452-8764-4ed3-a995-4598472d3fb6.png)
 
 
 ## The Database
