@@ -71,7 +71,11 @@ Due to prescence of the pandemic, we have decided to throw out year 2020 and the
 
 ## Data Analysis and Machine Learning
 Based on the World Happiness Report, the GDP, Family, Life expentancy and freedom seem to directly impact overall happiness of a country while trust and generosity do not. The money is the root of all evil, but without money, it's difficult to accomplish much. The way money impacts happiness is expressed in terms of GDP. Here we run into the problem of US having higher GDP than the world's happiness countries, but rank much lower on happiness score. 
+During the ML process, the Linear Regression model shows alcohol consumption may impact happiness only to certain level. 
 
+![lr_alcohol_happiness](https://user-images.githubusercontent.com/80020446/128659360-0cc0197c-4a2a-4827-a4f3-c5b200b19634.png)
+
+Between 10 to 20 liters per year seems to have most clustering with happiness on the Y axis. We will continue to explore other combinations and discover more underlying trends. 
 ## Project Dashboard
 See Google Slide
 https://docs.google.com/presentation/d/1KHBlzdOCCLyFK2nmcLZyR1_vxCX9v-C6a4RVpKL31c0/edit?usp=sharing
