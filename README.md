@@ -46,8 +46,8 @@ Part I
 Salih Mohammed - Database</br>
 Jose Guerra - Database</br>
 Henry Wang - Presentation</br>
-Italia Cardenas - Machine Learning Model</br>
-Tom Norris - Github, Machine Learning Model</br>
+Italia Cardenas - Unsupervised Machine Learning Model</br>
+Tom Norris - Github, Supervised Machine Learning Model</br>
 
 ## First Steps
 
