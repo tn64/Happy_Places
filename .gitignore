@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 tn_config.py
+ic_config.py 
 
 # C extensions
 *.so
