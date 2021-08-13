@@ -71,7 +71,7 @@ Money is the root of all evil, but without money, it's difficult to accomplish m
 Here we run into the problem of US having higher GDP than the world's happiness countries, but rank much lower on happiness score. 
 
 ## The Database
-![Results](database_diagram.PNG)
+![Results](Resources/database_diagram.PNG)
 
 ## Data Analysis and Machine Learning
 Based on the World Happiness Report, the GDP, Family, Life expentancy and freedom seem to directly impact overall happiness of a country while trust and generosity do not. The money is the root of all evil, but without money, it's difficult to accomplish much. The way money impacts happiness is expressed in terms of GDP. Here we run into the problem of US having higher GDP than the world's happiness countries, but rank much lower on happiness score. 
