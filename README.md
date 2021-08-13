@@ -49,19 +49,42 @@ Henry Wang - Presentation</br>
 Italia Cardenas - Machine Learning Model</br>
 Tom Norris - Github, Machine Learning Model</br>
 
+Part II
+
+Salih Mohammed - Database</br>
+Jose Guerra - Database</br>
+Henry Wang - Presentation</br>
+Italia Cardenas - Machine Learning Model</br>
+Tom Norris - Github, Machine Learning Model</br>
+
 ## First Steps
 
+Due to prescence of the pandemic, we have decided to throw out year 2020 and the present year 2021. 
+- Cleaned Wolrd Happiness Report Data from 2015 to 2019;
+- Looked and removed null values;
+- Cleaned CCI, CPI and alcohol databases;
+- Loaded additional factor data into database; alcohol loaded in ERD as trial;
+
 ## Exploratory Data Analysis
-Description of the data exploration phase of the project
+Based on the World Happiness Report, the GDP, Family, Life expentancy and freedom seem to directly impact overall happiness of a country while trust and generosity do not. 
+Money is the root of all evil, but without money, it's difficult to accomplish much. The way money impacts happiness is expressed in terms of GDP. 
+Here we run into the problem of US having higher GDP than the world's happiness countries, but rank much lower on happiness score. 
 
 ## The Database
-![Results](Resources/database_diagram2.PNG)
+![Results](Resources/database_diagram.PNG)
 
 ## Data Analysis and Machine Learning
-Description of the analysis phase of the project
+Based on the World Happiness Report, the GDP, Family, Life expentancy and freedom seem to directly impact overall happiness of a country while trust and generosity do not. The money is the root of all evil, but without money, it's difficult to accomplish much. The way money impacts happiness is expressed in terms of GDP. Here we run into the problem of US having higher GDP than the world's happiness countries, but rank much lower on happiness score. 
+During the ML process, the Linear Regression model shows alcohol consumption may impact happiness only to certain level. 
 
+![lr_alcohol_happiness](https://user-images.githubusercontent.com/80020446/128659360-0cc0197c-4a2a-4827-a4f3-c5b200b19634.png)
+
+Between 10 to 20 liters per year seems to have most clustering with happiness on the Y axis. We will continue to explore other combinations and discover more underlying trends. 
 ## Project Dashboard
+See Google Slide
+https://docs.google.com/presentation/d/1KHBlzdOCCLyFK2nmcLZyR1_vxCX9v-C6a4RVpKL31c0/edit?usp=sharing
 
 ## Conclusions 
-
+TBD
 ## Resources
+TBD
