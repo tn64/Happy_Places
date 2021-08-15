@@ -1,4 +1,3 @@
-
 <img src="https://github.com/tn64/happy_places/blob/main/Resources/earth_from_space.png"></br>
 
 # Happy Places
@@ -39,7 +38,7 @@ We want to explore the following questions:
 - Is it possible to predict which countries will experience the greatest happiness based on the factors in the dataset?
 - How can US improve overall happiness?
 - How does CCI (Consumer Confidence Index) and CPI (Consumer Price Index) play a part in predicting overall happiness?
-- Does legalization of cannibis impact happiness?
+- Does alcohol consumption effect overall happiness?
 
 ## Source Data
 - https://data.oecd.org/leadind/consumer-confidence-index-cci.htm
@@ -47,13 +46,6 @@ We want to explore the following questions:
 - https://www.kaggle.com/mathurinache/world-happiness-report
 - https://www.who.int/data/gho/data/indicators/indicator-details/GHO/alcohol-recorded-per-capita-(15-)-consumption-(in-litres-of-pure-alcohol)
 - https://www.kaggle.com/paultimothymooney/latitude-and-longitude-for-every-country-and-state
-
-## Communication Protocols
-
-Throughout this project we will use the following for group communication
-- Slack and Zoom: for messaging and meeting during class sessions
-- Coda: for scheduling, polling, and progress tracking
-- Discord: for screen sharing and voice calls outside of class sessions
 
 ## Team Responsibilties
 Part I
@@ -69,6 +61,14 @@ Part II
 Salih Mohammed - Database</br>
 Jose Guerra - Database</br>
 Henry Wang - Presentation</br>
+Italia Cardenas - Machine Learning Model</br>
+Tom Norris - Github, Machine Learning Model</br>
+
+Part III
+
+Salih Mohammed - README, Database</br>
+Jose Guerra - Presentation, Database</br>
+Henry Wang - Presentation/README</br>
 Italia Cardenas - Machine Learning Model</br>
 Tom Norris - Github, Machine Learning Model</br>
 
@@ -135,5 +135,3 @@ Editors: John Helliwell, Richard Layard, Jeffrey D. Sachs, and Jan Emmanuel De N
 
 Citation:
 Helliwell, John F., Richard Layard, Jeffrey Sachs, and Jan-Emmanuel De Neve, eds. 2020. World Happiness Report 2020. New York: Sustainable Development Solutions Network
-
-
