@@ -9,15 +9,29 @@ Through machine learning, we’d like to explore how each of the factors impact 
 
 ![HappyQuote](https://user-images.githubusercontent.com/80020446/127728745-da57e01a-a8c9-4420-b212-21c08e1d2f01.png)
 
+The happiness score (`HappinessScore`) is taken from Gallup World Survey and is treated as the target of the machine learning model(s).
+
  In search of becoming one of the happiest countries in the world, we are exploring the following key factors:
 
-- GDP per capita
-- Healthy Life Expectancy
-- Social support
-- Freedom to make life choices
-- Generosity
-- Corruption Perception
-- Residual error
+- GDP per capita (`gdp`): GDP per capita is in terms of Purchasing Power Parity (PPP) adjusted to constant 2011 international dollars, taken from the World Development Indicators (WDI) released by the World Bank.
+
+- Social support (`family`): Social support is the national average of the binary responses (0=no, 1=yes) to the Gallup World Poll (GWP) question, “If you were in trouble, do you have relatives or friends you can count on to help you whenever you need them, or not?”
+
+- life expectancy (`life_expectancy`): The time series of healthy life expectancy at birth are constructed based on data from the World Health Organization (WHO) Global Health Observatory data 
+repository.
+
+- `freedom`: Freedom to make life choices is the national average of binary responses to the GWP question, “Are you satisfied or dissatisfied with your freedom to choose what you do with your life?”
+
+
+- `Generosity`: Generosity is the residual of regressing the national average of GWP responses to the question, “Have you donated money to a charity in the past month?” on GDP per capita. 
+
+
+- Preception of corruption (`trust`): Perceptions of corruption are the average of binary answers to two GWP questions: “Is corruption widespread throughout the government or not?” and “Is corruption widespread within businesses or not?” Where data for government corruption are missing, the perception of business corruption is used as the overall corruption-perception measure. 
+
+- alcohol consumption (`alochol_LiPerYear`): This data is from the Global Health Observatory (GHO). The GHO data repository is WHO's gateway to health-related statistics for its 194 Member States
+
+The latitude `(lat)` and longitude `(lng)` are added solely for visualization and will not be included in the early stages of the analysis.
+
 
 ## Questions We Want to Answer
 We want to explore the following questions:
@@ -94,9 +108,12 @@ The Database was created Using `PostgresSQL` (PostgreSQL 11.11, compiled by Visu
   trust
   lat
   lng
+  alcohol_cons
   
   ```
-The latitude and longitude are added solely for visualization and will not be included in the early stages of the analysis. The tables in this database have been exported to a CSV file and will be used for our machine learning module. The data file was not huge or confidential therefore we opted not to use cloud resources. 
+
+- Our Database is hosted by aws
+- we formed the connection string with our Machine learning module using `Pgadmin` and The `sqlalchemy` Library.
 
 ## Data Analysis and Machine Learning
 Based on the World Happiness Report, the GDP, Family, Life expentancy and freedom seem to directly impact overall happiness of a country while trust and generosity do not. The money is the root of all evil, but without money, it's difficult to accomplish much. The way money impacts happiness is expressed in terms of GDP. Here we run into the problem of US having higher GDP than the world's happiness countries, but rank much lower on happiness score. 
@@ -109,7 +126,15 @@ Between 10 to 20 liters per year seems to have most clustering with happiness on
 See Google Slide
 https://docs.google.com/presentation/d/1KHBlzdOCCLyFK2nmcLZyR1_vxCX9v-C6a4RVpKL31c0/edit?usp=sharing
 
-## Conclusions 
-TBD
 ## Resources
-TBD
+
+Editors: John Helliwell, Richard Layard, Jeffrey D. Sachs, and Jan Emmanuel De Neve, Co-Editors; Lara Aknin, Haifang Huang and Shun Wang, Associate Editors; and Sharon Paculor, Production Editor
+
+https://www.kaggle.com/paultimothymooney/latitude-and-longitude-for-every-country-and-state
+https://www.kaggle.com/mathurinache/world-happiness-report
+https://worldpopulationreview.com/country-rankings/alcohol-consumption-by-country
+
+Citation:
+Helliwell, John F., Richard Layard, Jeffrey Sachs, and Jan-Emmanuel De Neve, eds. 2020. World Happiness Report 2020. New York: Sustainable Development Solutions Network
+
+
