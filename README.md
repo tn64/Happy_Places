@@ -46,6 +46,7 @@ We want to explore the following questions:
 - https://www.bls.gov/cpi/
 - https://www.kaggle.com/mathurinache/world-happiness-report
 - https://www.who.int/data/gho/data/indicators/indicator-details/GHO/alcohol-recorded-per-capita-(15-)-consumption-(in-litres-of-pure-alcohol)
+- https://www.kaggle.com/paultimothymooney/latitude-and-longitude-for-every-country-and-state
 
 ## Communication Protocols
 
@@ -130,9 +131,7 @@ https://docs.google.com/presentation/d/1KHBlzdOCCLyFK2nmcLZyR1_vxCX9v-C6a4RVpKL3
 
 Editors: John Helliwell, Richard Layard, Jeffrey D. Sachs, and Jan Emmanuel De Neve, Co-Editors; Lara Aknin, Haifang Huang and Shun Wang, Associate Editors; and Sharon Paculor, Production Editor
 
-https://www.kaggle.com/paultimothymooney/latitude-and-longitude-for-every-country-and-state
-https://www.kaggle.com/mathurinache/world-happiness-report
-https://worldpopulationreview.com/country-rankings/alcohol-consumption-by-country
+
 
 Citation:
 Helliwell, John F., Richard Layard, Jeffrey Sachs, and Jan-Emmanuel De Neve, eds. 2020. World Happiness Report 2020. New York: Sustainable Development Solutions Network
