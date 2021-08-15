@@ -57,6 +57,14 @@ Henry Wang - Presentation</br>
 Italia Cardenas - Machine Learning Model</br>
 Tom Norris - Github, Machine Learning Model</br>
 
+Part III
+
+Salih Mohammed - Database</br>
+Jose Guerra - Database</br>
+Henry Wang - Presentation</br>
+Italia Cardenas - Machine Learning Model</br>
+Tom Norris - Github, Machine Learning Model</br>
+
 ## First Steps
 
 Due to prescence of the pandemic, we have decided to throw out year 2020 and the present year 2021. 
