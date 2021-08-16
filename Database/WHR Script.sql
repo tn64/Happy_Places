@@ -145,3 +145,8 @@ SET alcohol_LiPerYear =  (SELECT alcohol_per_year FROM alcohol_cons AS wc
 -- Check for null values
 SELECT * FROM whr_2019
 WHERE alcohol_LiPerYear is null or country is null
+
+
+
+
+
