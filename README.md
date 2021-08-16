@@ -1,3 +1,4 @@
+<
 <img src="https://github.com/tn64/happy_places/blob/main/Resources/earth_from_space.png"></br>
 
 # Happy Places
@@ -72,13 +73,28 @@ Henry Wang - Presentation/README</br>
 Italia Cardenas - Machine Learning Model</br>
 Tom Norris - Github, Machine Learning Model</br>
 
-## First Steps
+### First Steps
 
 Due to prescence of the pandemic, we have decided to throw out year 2020 and the present year 2021. 
 - Cleaned Wolrd Happiness Report Data from 2015 to 2019;
 - Looked and removed null values;
 - Cleaned CCI, CPI and alcohol databases;
 - Loaded additional factor data into database; alcohol loaded in ERD as trial;
+
+#### Description of preliminary data preprocessing
+- The first step in the preliminary data preprocessing connect to PostgresSQL server and retrieve the DataFrame, then connect to our AWS database and create a DataFrame. 
+- Clean the DataFrame that will be used for Machine Learning
+- The next step was to clean the data. The first decision was to determine how Null Values in the database would be handled. A for loop along with the isnull() function were used.
+- Within the DataFrame only 5 null values were found and dropped from the DataFrame, since minimal impact would occur if those rows were dropped.
+- Cleaning the DataFrame also involved, dropping columns that cannot be used for machine learning ("country", "happinessrank","happinessscore", "lat", and "lng") and converting     the remaining columns’ datatype to float64.
+- Once the DataFrame was cleaned, it was exported as a CSV file, UML_2019.csv. This CSV was used to run the Machine Learning. ### Description of preliminary feature engineering     and preliminary feature selection, including the decision-making process
+- For the Unsupervised Machine Learning process, three models were run: K-means Algorithm, Trial and Error of the K-means Algorithm, and the Elbow Curve. 
+
+### Description of how data was split into training and testing sets
+For the purposes of Unsupervised learning, the data was not split into training and testing sets. 
+
+### Explanation of model choice, including limitations and benefits
+The models displayed very similar clustering results when x=gdp and y=alcohol. However, because the Elbow Curve determines the optimal number of clusters (3), the decision was     made to go with this model.
 
 ## Exploratory Data Analysis
 Based on the World Happiness Report, the GDP, Family, Life expentancy and freedom seem to directly impact overall happiness of a country while trust and generosity do not. 
@@ -135,3 +151,4 @@ Editors: John Helliwell, Richard Layard, Jeffrey D. Sachs, and Jan Emmanuel De N
 
 Citation:
 Helliwell, John F., Richard Layard, Jeffrey Sachs, and Jan-Emmanuel De Neve, eds. 2020. World Happiness Report 2020. New York: Sustainable Development Solutions Network
+TBD
