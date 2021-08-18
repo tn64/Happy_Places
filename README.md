@@ -2,7 +2,7 @@
 <img src="https://github.com/tn64/happy_places/blob/main/Resources/earth_from_space.png"></br>
 
 # Happy Places
-
+  
 ## Project Goal
 We are the country that created the happiest place on Earth, but how happy are we as a nation?
 Through machine learning, we’d like to explore how each of the factors impact the overall learning process. Also, how would each ML methodological approach take different effects on overall learning scheme. In doing so, we’d may find what US needs to improve overall happiness rank. This may be particularly interesting to those who are seeking public office during future elections. 
@@ -66,7 +66,7 @@ Italia Cardenas - Machine Learning Model</br>
 Tom Norris - Github, Machine Learning Model</br>
 
 Part III
-
+ 
 Salih Mohammed - README, Database</br>
 Jose Guerra - Presentation, Database</br>
 Henry Wang - Presentation/README</br>
