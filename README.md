@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-
-=======
 <
->>>>>>> a629d5cc787eca10a4be3b73e5a55a6d316e22f0
 <img src="https://github.com/tn64/happy_places/blob/main/Resources/earth_from_space.png"></br>
 
 # Happy Places
@@ -10,76 +6,15 @@
 ## Project Goal
 We are the country that created the happiest place on Earth, but how happy are we as a nation?
 Through machine learning, we’d like to explore how each of the factors impact the overall learning process. Also, how would each ML methodological approach take different effects on overall learning scheme. In doing so, we’d may find what US needs to improve overall happiness rank. This may be particularly interesting to those who are seeking public office during future elections. 
-<<<<<<< HEAD
-
-![HappyQuote](https://user-images.githubusercontent.com/80020446/127728745-da57e01a-a8c9-4420-b212-21c08e1d2f01.png)
-
- In search of becoming one of the happiest countries in the world, we are exploring the following key factors:
-
-- GDP per capita
-- Healthy Life Expectancy
-- Social support
-- Freedom to make life choices
-- Generosity
-- Corruption Perception
-- Residual error
-
-## Questions We Want to Answer
-We want to explore the following questions:
-- Which individual factors are most highly correlated to happiness?
-- Is it possible to predict which countries will experience the greatest happiness based on the factors in the dataset?
-- How can US improve overall happiness?
-- How does CCI (Consumer Confidence Index) and CPI (Consumer Price Index) play a part in predicting overall happiness?
-- Does legalization of cannibis impact happiness?
-
-## Source Data
-- https://data.oecd.org/leadind/consumer-confidence-index-cci.htm
-- https://www.bls.gov/cpi/
-- https://www.kaggle.com/mathurinache/world-happiness-report
-- https://www.who.int/data/gho/data/indicators/indicator-details/GHO/alcohol-recorded-per-capita-(15-)-consumption-(in-litres-of-pure-alcohol)
-=======
 
 ![HappyQuote](https://user-images.githubusercontent.com/80020446/127728745-da57e01a-a8c9-4420-b212-21c08e1d2f01.png)
 
 The happiness score (`HappinessScore`) is taken from Gallup World Survey and is treated as the target of the machine learning model(s).
 
  In search of becoming one of the happiest countries in the world, we are exploring the following key factors:
->>>>>>> a629d5cc787eca10a4be3b73e5a55a6d316e22f0
 
 - GDP per capita (`gdp`): GDP per capita is in terms of Purchasing Power Parity (PPP) adjusted to constant 2011 international dollars, taken from the World Development Indicators (WDI) released by the World Bank.
 
-<<<<<<< HEAD
-Throughout this project we will use the following for group communication
-- Slack and Zoom: for messaging and meeting during class sessions
-- Coda: for scheduling, polling, and progress tracking
-- Discord: for screen sharing and voice calls outside of class sessions
-
-## Team Responsibilties
-Part I
-
-Salih Mohammed - Database</br>
-Jose Guerra - Database</br>
-Henry Wang - Presentation</br>
-Italia Cardenas - Machine Learning Model</br>
-Tom Norris - Github, Machine Learning Model</br>
-
-## First Steps
-
-## Exploratory Data Analysis
-Description of the data exploration phase of the project
-
-## The Database
-![Results](Resources/database_diagram.PNG)
-
-## Data Analysis and Machine Learning
-Description of the analysis phase of the project
-
-## Project Dashboard
-
-## Conclusions 
-
-## Resources
-=======
 - Social support (`family`): Social support is the national average of the binary responses (0=no, 1=yes) to the Gallup World Poll (GWP) question, “If you were in trouble, do you have relatives or friends you can count on to help you whenever you need them, or not?”
 
 - life expectancy (`life_expectancy`): The time series of healthy life expectancy at birth are constructed based on data from the World Health Organization (WHO) Global Health Observatory data 
@@ -217,4 +152,3 @@ Editors: John Helliwell, Richard Layard, Jeffrey D. Sachs, and Jan Emmanuel De N
 Citation:
 Helliwell, John F., Richard Layard, Jeffrey Sachs, and Jan-Emmanuel De Neve, eds. 2020. World Happiness Report 2020. New York: Sustainable Development Solutions Network
 TBD
->>>>>>> a629d5cc787eca10a4be3b73e5a55a6d316e22f0
