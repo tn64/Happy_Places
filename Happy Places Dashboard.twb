@@ -1,97 +1,4 @@
-<?xml version='1.0' encoding='utf-8' ?>
 
-<!-- build 20212.21.0712.0907                               -->
-<workbook source-build='2021.2.1 (20212.21.0712.0907)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
-  <document-format-change-manifest>
-    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
-    <AutoCreateAndUpdateDSDPhoneLayouts />
-    <MapboxVectorStylesAndLayers />
-    <_.fcp.MarkAnimation.true...MarkAnimation />
-    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
-    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
-    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
-    <SetMembershipControl />
-    <SheetIdentifierTracking />
-    <WindowsPersistSimpleIdentifiers />
-  </document-format-change-manifest>
-  <preferences>
-    <preference name='ui.encoding.shelf.height' value='24' />
-    <preference name='ui.shelf.height' value='26' />
-  </preferences>
-  <style-theme name='modern' />
-  <style>
-    <_.fcp.MarkAnimation.true...style-rule element='animation'>
-      <format attr='animation-style' value='as-phased' />
-      <format attr='animation-on' value='ao-off' />
-    </_.fcp.MarkAnimation.true...style-rule>
-  </style>
-  <datasources>
-    <datasource inline='true' name='World Indicators' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='World Indicators' name='hyper.02tkzk21390wwr18vjk7f1tnp84z'>
-            <connection authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/15627/Documents/My Tableau Repository/Datasources/2021.2/en_US-US/World Indicators.hyper' default-settings='yes' sslmode='' username='tableau_internal_user' />
-          </named-connection>
-          <named-connection caption='whr.csnc4l4qvlqd.us-east-2.rds.amazonaws.com' name='postgres.08kytak1r0fd7d1epp34h1czteyc'>
-            <connection authentication='username-password' class='postgres' dbname='postgres' one-time-sql='' port='5432' server='whr.csnc4l4qvlqd.us-east-2.rds.amazonaws.com' username='postgres' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='hyper.02tkzk21390wwr18vjk7f1tnp84z' name='Extract' table='[Extract].[Extract]' type='table' />
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
-          <relation connection='hyper.02tkzk21390wwr18vjk7f1tnp84z' name='Extract' table='[Extract].[Extract]' type='table' />
-          <relation all='true' name='Union' type='union'>
-            <relation connection='postgres.08kytak1r0fd7d1epp34h1czteyc' name='whr_2019' table='[public].[whr_2019]' type='table' />
-            <relation connection='postgres.08kytak1r0fd7d1epp34h1czteyc' name='three_clusters' table='[public].[three_clusters]' type='table' />
-            <relation connection='postgres.08kytak1r0fd7d1epp34h1czteyc' name='countries' table='[public].[countries]' type='table' />
-          </relation>
-          <relation connection='postgres.08kytak1r0fd7d1epp34h1czteyc' name='three_clusters' table='[public].[three_clusters]' type='table' />
-          <relation connection='postgres.08kytak1r0fd7d1epp34h1czteyc' name='countries' table='[public].[countries]' type='table' />
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <cols>
-          <map key='[Birth Rate]' value='[Extract].[Birth Rate]' />
-          <map key='[Business Tax Rate]' value='[Extract].[Business Tax Rate]' />
-          <map key='[CO2 Emissions]' value='[Extract].[CO2 Emissions]' />
-          <map key='[Country/Region]' value='[Extract].[Country/Region]' />
-          <map key='[Days to Start Business]' value='[Extract].[Days to Start Business]' />
-          <map key='[Ease of Business]' value='[Extract].[Ease of Business]' />
-          <map key='[Energy Usage]' value='[Extract].[Energy Usage]' />
-          <map key='[GDP]' value='[Extract].[GDP]' />
-          <map key='[Health Exp % GDP]' value='[Extract].[Health Exp % GDP]' />
-          <map key='[Health Exp/Capita]' value='[Extract].[Health Exp/Capita]' />
-          <map key='[Hours to do Tax]' value='[Extract].[Hours to do Tax]' />
-          <map key='[Infant Mortality Rate]' value='[Extract].[Infant Mortality Rate]' />
-          <map key='[Internet Usage]' value='[Extract].[Internet Usage]' />
-          <map key='[Lending Interest]' value='[Extract].[Lending Interest]' />
-          <map key='[Life Expectancy Female]' value='[Extract].[Life Expectancy Female]' />
-          <map key='[Life Expectancy Male]' value='[Extract].[Life Expectancy Male]' />
-          <map key='[Mobile Phone Usage]' value='[Extract].[Mobile Phone Usage]' />
-          <map key='[Population 0-14]' value='[Extract].[Population 0-14]' />
-          <map key='[Population 15-64]' value='[Extract].[Population 15-64]' />
-          <map key='[Population 65+]' value='[Extract].[Population 65+]' />
-          <map key='[Population Total]' value='[Extract].[Population Total]' />
-          <map key='[Population Urban]' value='[Extract].[Population Urban]' />
-          <map key='[Region]' value='[Extract].[Region]' />
-          <map key='[Table Name]' value='[Union].[Table Name]' />
-          <map key='[Tourism Inbound]' value='[Extract].[Tourism Inbound]' />
-          <map key='[Tourism Outbound]' value='[Extract].[Tourism Outbound]' />
-          <map key='[Year]' value='[Extract].[Year]' />
-          <map key='[alcohol_liperyear]' value='[Union].[alcohol_liperyear]' />
-          <map key='[class (Union)]' value='[Union].[class]' />
-          <map key='[class]' value='[three_clusters].[class]' />
-          <map key='[country (Union)]' value='[Union].[country]' />
-          <map key='[country (countries)]' value='[countries].[country]' />
-          <map key='[country]' value='[three_clusters].[country]' />
-          <map key='[country_code (Union)]' value='[Union].[country_code]' />
-          <map key='[country_code]' value='[countries].[country_code]' />
-          <map key='[family (Union)]' value='[Union].[family]' />
-          <map key='[family]' value='[three_clusters].[family]' />
-          <map key='[freedom]' value='[Union].[freedom]' />
-          <map key='[gdp (Union)]' value='[Union].[gdp]' />
-          <map key='[gdp]' value='[three_clusters].[gdp]' />
-          <map key='[generosity]' value='[Union].[generosity]' />
-          <map key='[happinessrank]' value='[Union].[happinessrank]' />
-          <map key='[happinessscore]' value='[Union].[happinessscore]' />
-          <map key='[index (Union)]' value='[Union].[index]' />
           <map key='[index]' value='[three_clusters].[index]' />
           <map key='[lat (Union)]' value='[Union].[lat]' />
           <map key='[lat]' value='[three_clusters].[lat]' />
@@ -100,12 +7,11 @@
           <map key='[lng (Union)]' value='[Union].[lng]' />
           <map key='[lng]' value='[three_clusters].[lng]' />
           <map key='[trust]' value='[Union].[trust]' />
-        </cols>
-        <metadata-records>
+        </cols>        <metadata-records>
           <metadata-record class='column'>
             <remote-name>Birth Rate</remote-name>
             <remote-type>5</remote-type>
-            <local-name>[Birth Rate]</local-name>
+            <local-name>[Birth Rate]</local-name
             <parent-name>[Extract]</parent-name>
             <remote-alias>Birth Rate</remote-alias>
             <ordinal>0</ordinal>
