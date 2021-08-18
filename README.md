@@ -38,7 +38,6 @@ We want to explore the following questions:
 - Which individual factors are most highly correlated to happiness?
 - Is it possible to predict which countries will experience the greatest happiness based on the factors in the dataset?
 - How can US improve overall happiness?
-- How does CCI (Consumer Confidence Index) and CPI (Consumer Price Index) play a part in predicting overall happiness?
 - Does alcohol consumption effect overall happiness?
 
 ## Source Data
