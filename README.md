@@ -103,30 +103,10 @@ Here we run into the problem of US having higher GDP than the world's happiness 
 ## The Database
 ![Results](database_diagram.PNG)
 
-The Database was created Using `PostgresSQL` (PostgreSQL 11.11, compiled by Visual C++ build 1914, 64-bit). It consists of two tables:
+The Database was created Using `PostgresSQL` (PostgreSQL 11.11, compiled by Visual C++ build 1914, 64-bit). It consists of 13 tables:
 
--Countries
-  ```
-  country_code
-  country (country name)
-  
-  ```
--whr_2019
-  ```
-  country
-  happiness rank
-  happiness score
-  GDP
-  family
-  life expectancy
-  freedom
-  generosity
-  trust
-  lat
-  lng
-  alcohol_cons
-  
-  ```
+
+
 - Joins where used in the database to clean data.
 - Our Database is hosted by aws.
 - we formed the connection string with our Machine learning module using `Pgadmin` and The `sqlalchemy` Library.
