@@ -101,7 +101,7 @@ Money is the root of all evil, but without money, it's difficult to accomplish m
 Here we run into the problem of US having higher GDP than the world's happiness countries, but rank much lower on happiness score. 
 
 ## The Database
-![Results](database_diagram.PNG)
+![Results](Resources/database_diagram.PNG)
 
 The Database was created Using `PostgresSQL` (PostgreSQL 11.11, compiled by Visual C++ build 1914, 64-bit). It consists of 13 tables:
 
