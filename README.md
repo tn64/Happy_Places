@@ -38,7 +38,6 @@ We want to explore the following questions:
 - Which individual factors are most highly correlated to happiness?
 - Is it possible to predict which countries will experience the greatest happiness based on the factors in the dataset?
 - How can US improve overall happiness?
-- How does CCI (Consumer Confidence Index) and CPI (Consumer Price Index) play a part in predicting overall happiness?
 - Does alcohol consumption effect overall happiness?
 
 ## Source Data
@@ -102,32 +101,12 @@ Money is the root of all evil, but without money, it's difficult to accomplish m
 Here we run into the problem of US having higher GDP than the world's happiness countries, but rank much lower on happiness score. 
 
 ## The Database
-![Results](database_diagram.PNG)
+![Results](Resources/database_diagram.PNG)
 
-The Database was created Using `PostgresSQL` (PostgreSQL 11.11, compiled by Visual C++ build 1914, 64-bit). It consists of two tables:
+The Database was created Using `PostgresSQL` (PostgreSQL 11.11, compiled by Visual C++ build 1914, 64-bit). It consists of 13 tables:
 
--Countries
-  ```
-  country_code
-  country (country name)
-  
-  ```
--whr_2019
-  ```
-  country
-  happiness rank
-  happiness score
-  GDP
-  family
-  life expectancy
-  freedom
-  generosity
-  trust
-  lat
-  lng
-  alcohol_cons
-  
-  ```
+
+
 - Joins where used in the database to clean data.
 - Our Database is hosted by aws.
 - we formed the connection string with our Machine learning module using `Pgadmin` and The `sqlalchemy` Library.
@@ -141,7 +120,13 @@ During the ML process, the Linear Regression model shows alcohol consumption may
 
 Between 10 to 20 liters per year seems to have most clustering with happiness on the Y axis. We will continue to explore other combinations and discover more underlying trends. 
 ## Project Dashboard
-See Google Slide
+
+https://public.tableau.com/app/profile/henry.wang8625/viz/HappyDashboardPresentation/Dashboard1?publish=yes
+
+Tableau Help
+https://www.tableau.com/support/help?_ga=2.20779450.341093754.1629169482-446147716.1626925920&_fsi=8uCvG83X
+
+Google Slide
 https://docs.google.com/presentation/d/1KHBlzdOCCLyFK2nmcLZyR1_vxCX9v-C6a4RVpKL31c0/edit?usp=sharing
 
 ## Resources
