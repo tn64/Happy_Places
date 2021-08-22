@@ -121,6 +121,7 @@ During the ML process, the Linear Regression model shows alcohol consumption may
 Between 10 to 20 liters per year seems to have most clustering with happiness on the Y axis. We will continue to explore other combinations and discover more underlying trends. 
 ## Project Dashboard
 
+Dashboard
 https://public.tableau.com/app/profile/henry.wang8625/viz/WorksheetFilterbyClass/WorldHappiness3Cluster?publish=yes
 
 Tableau Help
