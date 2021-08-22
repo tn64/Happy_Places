@@ -48,7 +48,8 @@ Answer: Life expectancy and GDP
 Answer: there is not correlation between alcohol consumption and happiness
 
 - Using the metrics with the highest correlation, can we run an Unsupervised Machine Learning model to identify clusters?
-Answer: Yes, we ran an unsupervised machine learning model and identify 3 clusters. You can visualize them in the following link
+Answer: Yes, we ran an unsupervised machine learning model and identify 3 clusters. You can visualize the clusters in the following link https://public.tableau.com/app/profile/henry.wang8625/viz/WorksheetFilterbyClass/WorldHappiness3Cluster?publish=yes
+
 
 
 
