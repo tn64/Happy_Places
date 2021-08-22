@@ -38,12 +38,17 @@ Both of the challenge were resolved by asking for help to teacher assistants and
 
 ## Summary of Project 
 
+The project is about analyse happiness data from 156 countries around the world by using different programming languages such as python and R to develop the machine learning modules and SQL to create a clean postgres database where we were able to pull any data we want for our machin learning models and push the results back to our database to later connect postgres with tableau and create a dashboard with our results. 
 
-We want to explore the following questions:
+We explored the following questions:
 - Which individual factors are most highly correlated to happiness?
-- Is it possible to predict which countries will experience the greatest happiness based on the factors in the dataset?
-- How can US improve overall happiness?
+Answer: Life expectancy and GDP
+
 - Does alcohol consumption effect overall happiness?
+Answer: there is not correlation between alcohol consumption and happiness
+
+- Using the metrics with the highest correlation, can we run an Unsupervised Machine Learning model to identify clusters?
+Answer: Yes, we ran an unsupervised machine learning model and identify 3 clusters. You can visualize them in the following link
 
 
 
