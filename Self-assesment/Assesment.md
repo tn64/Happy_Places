@@ -22,16 +22,28 @@ Machine Learning: Thomas and Italia
 Readme and dashboard: Henry
 
 ### challenges
-1.- Finding the right data sources for the project 
-2.- Connect our python jupyter notebook codes to our AWS databaes
+1.- Finding the right data sources for the project. 
+
+2.- Connect our python jupyter notebook codes to our AWS databaes.
 
 Both of the challenge were resolved by asking for help to teacher assistants and doing a research on internet.
 
 ### strengths as a team
 
 1.- Every one focusing on their own work and roles on the project, no one was focusing in other tasks where we were not responsible for and that made the team work so efficient.
+
 2.- Everyone always open to receive feedback from the other teammates on the tasks that each of us was working on. This way we always found ways to improve our codes.
+
 3.- Always have a good communications and schedules days and times for us to connect and chat at least 4 times per week.
+
+## Summary of Project 
+
+
+We want to explore the following questions:
+- Which individual factors are most highly correlated to happiness?
+- Is it possible to predict which countries will experience the greatest happiness based on the factors in the dataset?
+- How can US improve overall happiness?
+- Does alcohol consumption effect overall happiness?
 
 
 
